@@ -17,7 +17,7 @@ connectDB();
 
 //esmofeule fix
 const __filename=fileURLToPath(import.meta.url);
-const __dirname = path.diname(_filename);
+const __dirname = path.diname(__filename);
 //rest object
 const app = express();
 
